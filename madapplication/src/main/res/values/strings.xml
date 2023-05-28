@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MAD Application</string>
+    <string-array name="status_array">
+        <item>Pending</item>
+        <item>Delivered</item>
+    </string-array>
+    <string-array name="list_items"></string-array>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E915555"
+    tools:context=".RequestUpload">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="730dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="5dp"
+                android:text="Request Form"
+                android:textColor="#ce3232"
+                android:textSize="40sp"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/reqName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="start|center_vertical"
+                android:hint="Enter name"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+            <EditText
+                android:id="@+id/reqOrgName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Oraganization Name"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/reqAddress"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Address"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/reqPhone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="start|center_vertical"
+                android:hint="Enter phone number"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/reqDescr"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Your Wants"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <Button
+                android:id="@+id/reqSaveButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/lavender"
+                android:text="Submit"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

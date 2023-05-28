@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E915555"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="You're Logged-In as:"/>
+    <TextView
+        android:id="@+id/signup_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="24sp"
+        android:text="Email"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log-out"
+        android:backgroundTint="#FB5656"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"/>
+    <Button
+        android:id="@+id/deleteAccBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete my Account"
+        android:backgroundTint="#85022E"
+        android:textStyle="bold"
+        app:cornerRadius="50dp" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewMessage">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:stretchColumns="*">
+
+        <!-- Header row -->
+        <TableRow>
+            <TextView
+                android:text=" Name"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+            <TextView
+                android:text="Order Address"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+            <TextView
+                android:text="Phone Number"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+            <TextView
+                android:text="Package Weight"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+        </TableRow>
+
+        <!-- Data row -->
+        <TableRow>
+            <TextView
+                android:id="@+id/msgEmailTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/msgNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/msgTopicTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/msgDescTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="8dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

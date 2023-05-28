@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".ContactUsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ca"
+        android:layout_width="390dp"
+        android:layout_height="659dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/lavender_border"
+            android:backgroundTint="@color/background"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us..."
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/rating" />
+
+            <EditText
+                android:id="@+id/uploadEmail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input"
+                android:gravity="start|center_vertical"
+                android:hint="Enter email..."
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/uploadName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input"
+                android:gravity="start|center_vertical"
+                android:hint="Enter your name..."
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/uploadTopic"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input"
+                android:gravity="start|center_vertical"
+                android:hint="Enter topic name..."
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/uploadDesc"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input"
+                android:gravity="start|center_vertical"
+                android:hint="Enter description..."
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/lavender"
+                app:cornerRadius="20dp"
+                android:text="Send" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

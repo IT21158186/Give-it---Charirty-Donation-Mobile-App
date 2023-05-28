@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E915555"
+    tools:context=".ViewOrderActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:stretchColumns="*">
+
+        <!-- Header row -->
+        <TableRow>
+            <TextView
+                android:text=" Name"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+            <TextView
+                android:text="Order Address"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+            <TextView
+                android:text="Phone Number"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+            <TextView
+                android:text="Package Weight"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+        </TableRow>
+
+        <!-- Data row -->
+        <TableRow>
+            <TextView
+                android:id="@+id/orderNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/orderAddressTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/orderNumberTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/orderWeightTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="8dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

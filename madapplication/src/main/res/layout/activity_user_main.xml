@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/background"
+    tools:context=".UserMainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support Center Dashboard"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/service"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mainSend"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:text="SEND Message"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/lavender"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/mainInbox"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="Inbox"
+        android:backgroundTint="@color/lavender"
+        android:textSize="15sp"
+        app:cornerRadius="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/mainUpdate"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="UpdTE"
+            android:backgroundTint="@color/lavender"
+            android:textSize="15sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/mainDelete"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="Delete"
+            android:backgroundTint="@color/lavender"
+            android:textSize="15sp"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/userRedirectBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="This is User Main Page, Click here to go Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

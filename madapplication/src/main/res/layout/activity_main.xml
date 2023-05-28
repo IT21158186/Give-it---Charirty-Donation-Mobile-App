@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        app:srcCompat="@mipmap/logo2_foreground" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="75dp"
+        android:text="Move forward and raise your hand with humanity"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="110dp"
+        android:backgroundTint="#FB5656"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:text="Tap to Start"
+        android:textAlignment="center"
+        android:textColor="#E8DCDC"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

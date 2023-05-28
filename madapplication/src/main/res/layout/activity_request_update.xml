@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#3E915555"
+    tools:context=".RequestUpdate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-10dp"
+            android:text="Update Request"
+            android:textColor="#ce3232"
+            android:textSize="40sp"
+            android:typeface="serif" />
+
+
+
+        <EditText
+            android:id="@+id/reqReferencePhone"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavendar_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter phone number"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+        <Button
+            android:id="@+id/reqSearchButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/lavender"
+            android:text="Search Request"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+        <EditText
+            android:id="@+id/reqUpdateName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavendar_border"
+            android:gravity="start|center_vertical"
+            android:hint="Name"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+
+        <EditText
+            android:id="@+id/reqUpdateOrgName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavendar_border"
+            android:gravity="start|center_vertical"
+            android:hint="Organization Name"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+
+        <EditText
+            android:id="@+id/reqUpdateAddress"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavendar_border"
+            android:gravity="start|center_vertical"
+            android:hint="Address"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+
+        <EditText
+            android:id="@+id/reqUpdateDescr"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavendar_border"
+            android:gravity="start|center_vertical"
+            android:hint="Wants"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+
+        <Button
+            android:id="@+id/reqUpdateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/lavender"
+            android:text="Update Request"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+        <Button
+            android:id="@+id/reqDeleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/lavender"
+            android:text="Delete Request"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

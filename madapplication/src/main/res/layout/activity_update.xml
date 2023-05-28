@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".update_delivery_Activity"
+    android:background="#3E915555">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="673dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+
+            android:layout_width="390dp"
+            android:layout_height="53dp"
+
+            android:paddingStart="120sp"
+            android:paddingTop="5sp"
+            android:text="Update Order"
+            android:textColor="#ce3232"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <EditText
+            android:id="@+id/referencePhone"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavendar_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter phone number"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/lavender"
+            android:text="Search Order"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+        <EditText
+            android:id="@+id/updateName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavendar_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter name*"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/updateAddress"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavendar_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Address*"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/updateWeight"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/lavendar_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Weight(Kg)*"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can only enter below 10Kg parcels"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="10dp"/>
+
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/lavender"
+            android:text="Update"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/lavender"
+            android:text="Delete Order"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
